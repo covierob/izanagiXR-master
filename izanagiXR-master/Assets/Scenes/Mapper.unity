@@ -10281,7 +10281,7 @@ MonoBehaviour:
   Use:
     Filter: 0
     IgnoreStartedOverGui: 1
-    RequiredFingerCount: 2
+    RequiredFingerCount: 1
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
   _camera: {fileID: 0}
