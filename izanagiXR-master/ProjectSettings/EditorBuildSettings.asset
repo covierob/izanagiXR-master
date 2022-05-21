@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5c25be4e1ebcb1e43a3b0c80eb73884c
+  - enabled: 1
+    path: Assets/Scenes/Mapper.unity
+    guid: c248af4dffbfc36498566b9e4934d129
+  - enabled: 1
     path: Assets/Scenes/VisualizerFixed.unity
     guid: 4de518348129a56429d198068366562d
+  - enabled: 1
+    path: Assets/Scenes/Planner.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a71208f28aadf4aa28dda8b07bd02e62,
       type: 2}
