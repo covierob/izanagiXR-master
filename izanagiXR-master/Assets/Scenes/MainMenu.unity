@@ -1650,10 +1650,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to IzanagiAR! This is a project resulting from the master thesis
-    of Roberto Coviello, submitted on the 28th of May 2022. It is a prototype that
-    was created for demonstration purposes within the scope of the research project
-    "Location-based augmented reality visualization of 3D models using a mobile application".
+  m_text: "Welcome to IzanagiXR! This is a project resulting from the master thesis
+    of Roberto Coviello, submitted on the 28th of May 2022. \n\nIt is a prototype
+    that was created for demonstration purposes within the scope of the research
+    project."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 15b56416980a5014ea7c6b3e07df0a56, type: 2}
   m_sharedMaterial: {fileID: 21718481245067892, guid: 15b56416980a5014ea7c6b3e07df0a56,
@@ -2153,17 +2153,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LicenseUIToggle, Assembly-CSharp
-        m_MethodName: ToggleVisibility
-        m_Mode: 1
+      - m_Target: {fileID: 3823089197695102496}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!224 &1139102810320366545
 RectTransform:
@@ -2800,9 +2800,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'IzanagiXR Mapper
+  m_text: 'IzanagiXR
 
-    All right reserved by Immersal'
+    Make projects more engaging
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 15b56416980a5014ea7c6b3e07df0a56, type: 2}
   m_sharedMaterial: {fileID: 21718481245067892, guid: 15b56416980a5014ea7c6b3e07df0a56,
@@ -2916,10 +2918,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LicenseUIToggle, Assembly-CSharp
-        m_MethodName: ToggleVisibility
-        m_Mode: 1
+      - m_Target: {fileID: 3823089197695102496}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3269,7 +3271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -21}
   m_SizeDelta: {x: -260, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &5362216027315660143
